@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Game</title>
+</head>
+<body>
+    <h1>GET HYUCK'D <span><img width="45px" src="./hyuck.png"/></span></h1>
+
+    <!-- Game box -->
+    <div id="game-box">
+        <!-- Overlay -->
+        <div id="overlay">
+            <div id="instructions">
+                <p>Use the "Left" and "Right" arrow keys to move.</p>
+                <p>Use the spacebar to shoot.</p>
+            </div>
+            <div id="game-over">GAME OVER</div>
+            <button id="start-button">START</button>
+        </div>
+
+        <!-- Game Items -->
+        <div id="game-stats">
+            <div id="lives">Lives: <span id="user-lives"></span></div>
+            <div id="score">Score: <span id="user-points"></span></div>
+        </div>
+        <div id="cat"></div>
+    </div>
+
+    <!-- High Scores section -->
+    <div id="scoreboard">
+        <h2 id="scoreboard-text">I GOT <span id="last-score">___</span> HYUCKS!</h2>
+    </div>
+
+
+    <script src="./script.js"></script>
+    <script src="./shooting-game.js"></script>
+</body>
+</html>
