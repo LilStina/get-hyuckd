@@ -4,3 +4,7 @@ Bear images* from SleepingBear's Twitch Channel: https://www.twitch.tv/sleepingb
 Background image from Unsplash
 
 *Not for public use
+
+</br>
+
+Play the game here: https://lilstina.github.io/get-hyuckd/
